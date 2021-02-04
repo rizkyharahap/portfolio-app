@@ -1,0 +1,22 @@
+{
+  "name": "happinest-portfolio",
+  "version": "1.0.0",
+  "description": "This is web app happinest portfolio project",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "https://github.com/rizkyharahap/portfolio-app.git",
+  "author": "rizkyharahap",
+  "private": true,
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.2.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.6",
+    "react-hooks-form": "^2.0.1",
+    "react-router-dom": "^5.2.0"
+  }
+}

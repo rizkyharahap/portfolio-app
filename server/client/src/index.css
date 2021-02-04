@@ -1,0 +1,63 @@
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* -ms-scroll-snap-type: y proximity;
+  scroll-snap-type: y proximity; */
+}
+
+body {
+  margin: 0;
+  background-color: rgb(15, 15, 15);
+  overflow-x: hidden;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+/* section {
+  scroll-snap-align: start;
+} */
+
+a {
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+  cursor: pointer;
+}
+
+.swiper-scrollbar {
+  height: 6px !important;
+  background-color: transparent !important;
+}
+
+.swiper-scrollbar::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  content: '';
+  background-color: whitesmoke;
+  opacity: 0.5;
+}
+
+.swiper-scrollbar-drag {
+  background: white !important;
+  z-index: 3;
+  border-radius: 8px !important;
+}
